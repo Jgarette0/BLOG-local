@@ -162,7 +162,7 @@ z-index: 99;
 .btn {
   width: 18px; 
   height: 18px;
-  background-image: url('trash.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/trash.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ z-index: 99;
 .x{
  width: 18px; 
   height: 18px;
-  background-image: url('x.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ z-index: 99;
 .y{
  width: 18px; 
   height: 18px;
-  background-image: url('arrow-right.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ z-index: 99;
 .close{
  width: 18px; 
   height: 18px;
-  background-image: url('x.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -233,7 +233,7 @@ z-index: 99;
 .send{
  width: 18px; 
   height: 18px;
-  background-image: url('arrow-right.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -343,7 +343,7 @@ display: none;
   transform: translateY(-50%);
   width: 16px; /* Adjust width and height as needed */
   height: 16px;
-  background-image: url('pen-square.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/pen-square.svg'); /* Replace with your SVG path */
   background-size: cover;
   background-color: rgb(214, 214, 214);
   border-radius: 3px;
@@ -354,7 +354,7 @@ display: none;
 .github{
  width: 16px; 
   height: 16px;
-  background-image: url('github.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/github.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -369,7 +369,7 @@ display: none;
 .help{
  width: 16px; 
   height: 16px;
-  background-image: url('help-circle.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/help-circle.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -391,7 +391,7 @@ display: none;
 .nav-icon{
  width: 30px; 
   height: 30px;
-  background-image: url('code.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/code.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -583,7 +583,7 @@ z-index: 99;
 .btn {
   width: 18px; 
   height: 18px;
-  background-image: url('trash.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/trash.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -602,7 +602,7 @@ z-index: 99;
 .x{
  width: 18px; 
   height: 18px;
-  background-image: url('x.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -619,7 +619,7 @@ z-index: 99;
 .y{
  width: 18px; 
   height: 18px;
-  background-image: url('arrow-right.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -638,7 +638,7 @@ z-index: 99;
 .close{
  width: 18px; 
   height: 18px;
-  background-image: url('x.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -654,7 +654,7 @@ z-index: 99;
 .send{
  width: 18px; 
   height: 18px;
-  background-image: url('arrow-right.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -764,7 +764,7 @@ display: none;
   transform: translateY(-50%);
   width: 16px; /* Adjust width and height as needed */
   height: 16px;
-  background-image: url('pen-square.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/pen-square.svg'); /* Replace with your SVG path */
   background-size: cover;
   background-color: rgb(214, 214, 214);
   border-radius: 3px;
@@ -775,7 +775,7 @@ display: none;
 .github{
  width: 16px; 
   height: 16px;
-  background-image: url('github.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/github.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -790,7 +790,7 @@ display: none;
 .help{
  width: 16px; 
   height: 16px;
-  background-image: url('help-circle.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/help-circle.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -812,7 +812,7 @@ display: none;
 .nav-icon{
  width: 20px; 
   height: 20px;
-  background-image: url('code.svg'); /* Replace with your SVG path */
+  background-image: url('../icon/code.svg'); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

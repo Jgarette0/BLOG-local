@@ -5,13 +5,19 @@ const element = tag => document.createElement(tag);
 const getId = id => document.getElementById(id);
 
 // Creates a text node with the provided content
-const messege = node => document.createTextNode(node);
+const message = node => document.createTextNode(node);
 
 // Retrieves the value of an element with ID 'input'
-const getText = () => getId('input').value;
+const getText = () => getId('body').value;
 
 // Sets the value of an element with ID 'input'
-const setText = value => (getId('input').value = value);
+const setText = value => (getId('body').value = value);
+
+// Retrieves the value of an element with ID 'input'
+const getTitle = () => getId('input').value;
+
+// Sets the value of an element with ID 'input'
+const setTitle = value => (getId('input').value = value);
 
 // Curried function: Appends a node to an element and returns the element
 const append = R.curry(function (node, element) {
