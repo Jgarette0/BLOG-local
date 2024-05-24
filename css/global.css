@@ -434,8 +434,8 @@ button img {
 @media (max-width: 600px) {
   body {
     margin: 0;
-    padding: none;
-    max-width: fit-content;
+    padding: 0;
+    width: 100vw;
     overflow-x: hidden;
   }
   .container {
