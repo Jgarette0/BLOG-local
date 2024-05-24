@@ -602,12 +602,12 @@ button img {
     background-repeat: no-repeat;
     cursor: pointer;
     background-color: transparent;
-    border: none;
-    left: 0;
-    margin-left: 630px;
     padding: 5px;
     border-radius: 3px;
     background-color: rgb(214, 214, 214);
+    width: 100vh;
+    border: red 1px solid;
+    overflow: hidden;
   }
   .btn:hover {
     background-color: rgb(172, 171, 171);
