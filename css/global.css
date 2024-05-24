@@ -719,6 +719,8 @@ button img {
     transition: top 0.3s;
     position: fixed;
     z-index: 999;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   .navbar {
@@ -726,6 +728,8 @@ button img {
     width: 100%;
     display: flex;
     margin: 0 25px;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   .left-section {
