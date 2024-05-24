@@ -1,168 +1,166 @@
-
-body{
+body {
   margin: 0;
   padding: none;
- }
- .container{
+}
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
- }
- #list{
+}
+#list {
   box-sizing: border-box;
-color: rgba(0, 0, 0, 0.8);
-font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-font-weight: 400;
-margin-bottom: 0px;
-margin-top: 0px;
-max-width: 650px;
-min-width: 0px;
-overflow-wrap: break-word;
-text-rendering: optimizelegibility;
-width: 650px;
-word-break: break-word;
- }
-.title{
- font-size: 42px;
- font-weight: 700;
- font-style: normal;
- color: rgb(36, 36, 36);
- font-family: 'Roboto', sans-serif;
- line-height: 52px;
- margin-bottom: 32px;
- margin-top: .3em;
- overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  max-width: 650px;
+  min-width: 0px;
+  overflow-wrap: break-word;
+  text-rendering: optimizelegibility;
+  width: 650px;
+  word-break: break-word;
 }
-.body{
- font-family: 'Source Serif 4', serif;
- box-sizing: border-box;
-color: rgb(36, 36, 36);
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: -0.06px;
-line-height: 32px;
-list-style-image: none;
-list-style-position: outside;
-list-style-type: disc;
-margin-bottom: -9.2px;
-margin-top: 22.8px;
-overflow-wrap: break-word;
-padding-left: 0px;
-text-rendering: optimizelegibility;
-word-break: break-word
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(36, 36, 36);
+  font-family: "Roboto", sans-serif;
+  line-height: 52px;
+  margin-bottom: 32px;
+  margin-top: 0.3em;
+  overflow-wrap: break-word;
+}
+.body {
+  font-family: "Source Serif 4", serif;
+  box-sizing: border-box;
+  color: rgb(36, 36, 36);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.06px;
+  line-height: 32px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  margin-bottom: -9.2px;
+  margin-top: 22.8px;
+  overflow-wrap: break-word;
+  padding-left: 0px;
+  text-rendering: optimizelegibility;
+  word-break: break-word;
 }
 
-
-input,textarea{
- border: transparent;
- caret-color: #000000;
+input,
+textarea {
+  border: transparent;
+  caret-color: #000000;
 }
-input:focus{
- outline: none;
+input:focus {
+  outline: none;
   border: none;
   caret-color: #000000;
 }
 textarea:focus {
- outline: none;
+  outline: none;
   border: none;
 }
 
-
-textarea{
-height: 300px;
-font-weight: 400;
-margin-bottom: 0px;
-margin-top: 0px;
-max-width: 650px;
-min-width: 0px;
-overflow-wrap: break-word;
-text-rendering: optimizelegibility;
-word-break: break-word;
-font-family: 'Source Serif 4', serif;
- box-sizing: border-box;
-color: rgb(36, 36, 36);
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: -0.06px;
-line-height: 32px;
-list-style-image: none;
-list-style-position: outside;
-list-style-type: disc;
-margin-bottom: -9.2px;
-margin-top: 22.8px;
-overflow-wrap: break-word;
-padding-left: 0px;
-text-rendering: optimizelegibility;
-word-break: break-word;
-min-height: 150px;
-min-width: 650px;
-box-sizing: border-box;
+textarea {
+  height: 300px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  max-width: 650px;
+  min-width: 0px;
+  overflow-wrap: break-word;
+  text-rendering: optimizelegibility;
+  word-break: break-word;
+  font-family: "Source Serif 4", serif;
+  box-sizing: border-box;
+  color: rgb(36, 36, 36);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.06px;
+  line-height: 32px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  margin-bottom: -9.2px;
+  margin-top: 22.8px;
+  overflow-wrap: break-word;
+  padding-left: 0px;
+  text-rendering: optimizelegibility;
+  word-break: break-word;
+  min-height: 150px;
+  min-width: 650px;
+  box-sizing: border-box;
 }
-input{
- font-size: 42px;
- font-weight: 700;
- font-style: normal;
- color: rgb(36, 36, 36);
- font-family: 'Roboto', sans-serif;
- line-height: 52px;
- margin-bottom: 32px;
- margin-top: 1em;
- overflow-wrap: break-word;
- font-weight: 400;
-margin-bottom: 0px;
-margin-right: 24px;
-margin-top: 0px;
-max-width: 650px;
-min-width: 0px;
-overflow-wrap: break-word;
-text-rendering: optimizelegibility;
-width: 650px;
-word-break: break-word;
+input {
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(36, 36, 36);
+  font-family: "Roboto", sans-serif;
+  line-height: 52px;
+  margin-bottom: 32px;
+  margin-top: 1em;
+  overflow-wrap: break-word;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-right: 24px;
+  margin-top: 0px;
+  max-width: 650px;
+  min-width: 0px;
+  overflow-wrap: break-word;
+  text-rendering: optimizelegibility;
+  width: 650px;
+  word-break: break-word;
 }
-.button{
-background-color: rgb(25, 25, 25);
-fill: rgb(255, 255, 255);
-font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-margin-bottom: 0px;
-overflow-x: visible;
-overflow-y: visible;
-padding-bottom: 8px;
-padding-left: 16px;
-padding-right: 16px;
-padding-top: 8px;
-text-align: center;
-cursor:pointer;
-border: 1px rgb(0, 0, 0);
-border-radius: 50px;
-color: #ffffff;
-z-index: 99;
+.button {
+  background-color: rgb(25, 25, 25);
+  fill: rgb(255, 255, 255);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0px;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px rgb(0, 0, 0);
+  border-radius: 50px;
+  color: #ffffff;
+  z-index: 99;
 }
-.button:hover{
- background-color: #363640;
- border-color: #3a3a44;
- color: #ffffff;
+.button:hover {
+  background-color: #363640;
+  border-color: #3a3a44;
+  color: #ffffff;
 }
-.form-group{
- display: flex;
- flex-direction: column;
- margin: none;
- padding: none;
- width: 650px;
- 
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: none;
+  padding: none;
+  width: 650px;
 }
 
-#list{
-
+#list {
 }
 .btn {
-  width: 18px; 
+  width: 18px;
   height: 18px;
-  background-image: url('../icon/trash.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/trash.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -175,13 +173,13 @@ z-index: 99;
   border-radius: 3px;
   background-color: rgb(214, 214, 214);
 }
-.btn:hover{
- background-color: rgb(172, 171, 171);
+.btn:hover {
+  background-color: rgb(172, 171, 171);
 }
-.x{
- width: 18px; 
+.x {
+  width: 18px;
   height: 18px;
-  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/x.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,10 +193,10 @@ z-index: 99;
   transform: translateX(25px);
   transition: transform 1s;
 }
-.y{
- width: 18px; 
+.y {
+  width: 18px;
   height: 18px;
-  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/arrow-right.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -213,11 +211,10 @@ z-index: 99;
   transition: transform 1s;
 }
 
-
-.close{
- width: 18px; 
+.close {
+  width: 18px;
   height: 18px;
-  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/x.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -230,10 +227,10 @@ z-index: 99;
   background-color: rgb(214, 214, 214);
   transform: translateX(-6px);
 }
-.send{
- width: 18px; 
+.send {
+  width: 18px;
   height: 18px;
-  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/arrow-right.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,20 +241,21 @@ z-index: 99;
   padding: 5px;
   border-radius: 3px;
   background-color: rgb(214, 214, 214);
-  transform: translateX(6px)
+  transform: translateX(6px);
 }
 
-.close:hover, .send:hover{
- background-color: rgb(172, 171, 171);
+.close:hover,
+.send:hover {
+  background-color: rgb(172, 171, 171);
 }
 
-.btns{
- display: flex;
- align-items: center;
- column-gap: 5px;
- margin-top: 20px;
+.btns {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 20px;
 }
-button img{
+button img {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -267,8 +265,8 @@ button img{
   left: 0;
   margin: none;
 }
-.blog-container{
-display: none;
+.blog-container {
+  display: none;
 }
 
 .navbar-container {
@@ -278,7 +276,7 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid rgb(0, 0, 0, .1);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
   margin-bottom: 50px;
   position: sticky;
   overflow: hidden;
@@ -305,8 +303,8 @@ display: none;
   align-items: center;
   column-gap: 5px;
 }
-.link{
- display: flex;
+.link {
+  display: flex;
   align-items: center;
 }
 
@@ -314,11 +312,9 @@ display: none;
   flex: 1; /* This space will expand and contract as needed */
 }
 
-
-.scale{
- padding-top: 10%;
+.scale {
+  padding-top: 10%;
 }
-
 
 .write {
   margin: none;
@@ -328,9 +324,9 @@ display: none;
   background-color: #fff; /* Set button background color */
   background-repeat: no-repeat;
   background-position: right center; /* Position the icon at the right center */
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
   border-radius: 3px;
-  border: 1px solid rgb(0, 0, 0, .1);
+  border: 1px solid rgb(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -343,18 +339,18 @@ display: none;
   transform: translateY(-50%);
   width: 16px; /* Adjust width and height as needed */
   height: 16px;
-  background-image: url('../icon/pen-square.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/pen-square.svg"); /* Replace with your SVG path */
   background-size: cover;
   background-color: rgb(214, 214, 214);
   border-radius: 3px;
 }
-.write:active{
- background-color: #d8d8d8;
+.write:active {
+  background-color: #d8d8d8;
 }
-.github{
- width: 16px; 
+.github {
+  width: 16px;
   height: 16px;
-  background-image: url('../icon/github.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/github.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -366,10 +362,10 @@ display: none;
   border-radius: 3px;
   background-color: rgb(214, 214, 214);
 }
-.help{
- width: 16px; 
+.help {
+  width: 16px;
   height: 16px;
-  background-image: url('../icon/help-circle.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/help-circle.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -381,17 +377,18 @@ display: none;
   border-radius: 3px;
   background-color: rgb(214, 214, 214);
 }
-.github:hover,.help:hover{
- background-color: rgb(172, 171, 171);
+.github:hover,
+.help:hover {
+  background-color: rgb(172, 171, 171);
 }
-.nav-title{
- font-family: 'Source Serif 4', serif;
- font-size: 30px;
+.nav-title {
+  font-family: "Source Serif 4", serif;
+  font-size: 30px;
 }
-.nav-icon{
- width: 30px; 
+.nav-icon {
+  width: 30px;
   height: 30px;
-  background-image: url('../icon/code.svg'); /* Replace with your SVG path */
+  background-image: url("../icon/code.svg"); /* Replace with your SVG path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -403,10 +400,9 @@ display: none;
   border-radius: 3px;
   background-color: rgb(214, 214, 214);
   transition: background-color 1s;
-
 }
-.nav-icon:hover{
- background-color: rgb(172, 171, 171);
+.nav-icon:hover {
+  background-color: rgb(172, 171, 171);
 }
 .left-section .nav-icon {
   transition: transform 3s; /* Set initial transition */
@@ -417,12 +413,14 @@ display: none;
 }
 
 .left-section:not(:hover) .nav-icon {
-  transform: translateX(0); /* Move back to the initial position when not hovering */
+  transform: translateX(
+    0
+  ); /* Move back to the initial position when not hovering */
 }
 .footer {
   background-color: #ffffff;
   color: rgba(0, 0, 0, 0.5);
-  font-family: 'Source Serif 4', serif;
+  font-family: "Source Serif 4", serif;
   text-align: center;
   padding: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -434,438 +432,438 @@ display: none;
 }
 
 @media (max-width: 600px) {
- body{
-  margin: 0;
-  padding: none;
- }
- .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- #list{
-  box-sizing: border-box;
-color: rgba(0, 0, 0, 0.8);
-font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-font-weight: 400;
-margin-bottom: 0px;
-margin-top: 0px;
-max-width: 312px;
-min-width: 0px;
-overflow-wrap: break-word;
-text-rendering: optimizelegibility;
-width: 312px;
-word-break: break-word;
- }
-.title{
- font-size: 28px;
- font-weight: 700;
- font-style: normal;
- color: rgb(36, 36, 36);
- font-family: 'Roboto', sans-serif;
- line-height: 32px;
- margin-bottom: 32px;
- margin-top: .3em;
- overflow-wrap: break-word;
-}
-.body{
- font-family: 'Source Serif 4', serif;
- box-sizing: border-box;
-color: rgb(36, 36, 36);
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: -0.06px;
-line-height: 32px;
-list-style-image: none;
-list-style-position: outside;
-list-style-type: disc;
-margin-bottom: -9.2px;
-margin-top: 22.8px;
-overflow-wrap: break-word;
-padding-left: 0px;
-text-rendering: optimizelegibility;
-word-break: break-word
-}
+  body {
+    margin: 0;
+    padding: none;
+    max-width: fit-content;
+    overflow-x: hidden;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #list {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: medium-content-sans-serif-font, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+      "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 312px;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    width: 312px;
+    word-break: break-word;
+  }
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(36, 36, 36);
+    font-family: "Roboto", sans-serif;
+    line-height: 32px;
+    margin-bottom: 32px;
+    margin-top: 0.3em;
+    overflow-wrap: break-word;
+  }
+  .body {
+    font-family: "Source Serif 4", serif;
+    box-sizing: border-box;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.06px;
+    line-height: 32px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-bottom: -9.2px;
+    margin-top: 22.8px;
+    overflow-wrap: break-word;
+    padding-left: 0px;
+    text-rendering: optimizelegibility;
+    word-break: break-word;
+  }
 
+  input,
+  textarea {
+    border: transparent;
+    caret-color: #000000;
+  }
+  input:focus {
+    outline: none;
+    border: none;
+    caret-color: #000000;
+  }
+  textarea:focus {
+    outline: none;
+    border: none;
+  }
 
-input,textarea{
- border: transparent;
- caret-color: #000000;
-}
-input:focus{
- outline: none;
-  border: none;
-  caret-color: #000000;
-}
-textarea:focus {
- outline: none;
-  border: none;
-}
+  textarea {
+    height: 200px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 312px;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    word-break: break-word;
+    font-family: "Source Serif 4", serif;
+    box-sizing: border-box;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.06px;
+    line-height: 32px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-bottom: -9.2px;
+    margin-top: 22.8px;
+    overflow-wrap: break-word;
+    padding-left: 0px;
+    text-rendering: optimizelegibility;
+    word-break: break-word;
+    min-height: 150px;
+    min-width: 312px;
+    box-sizing: border-box;
+  }
+  input {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(36, 36, 36);
+    font-family: "Roboto", sans-serif;
+    line-height: 52px;
+    margin-bottom: 32px;
+    margin-top: 1em;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    margin-top: 0px;
+    max-width: 312px;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    width: 312px;
+    word-break: break-word;
+  }
+  .button {
+    background-color: rgb(25, 25, 25);
+    fill: rgb(255, 255, 255);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 6px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px rgb(0, 0, 0);
+    border-radius: 50px;
+    color: #ffffff;
+    z-index: 99;
+  }
+  .button:hover {
+    background-color: #363640;
+    border-color: #3a3a44;
+    color: #ffffff;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    padding: none;
+    width: 312px;
+  }
 
+  #list {
+  }
+  .btn {
+    width: 18px;
+    height: 18px;
+    background-image: url("../icon/trash.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    margin-left: 630px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+  }
+  .btn:hover {
+    background-color: rgb(172, 171, 171);
+  }
+  .x {
+    width: 18px;
+    height: 18px;
+    background-image: url("../icon/x.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+    transform: translateX(25px);
+    transition: transform 1s;
+  }
+  .y {
+    width: 18px;
+    height: 18px;
+    background-image: url("../icon/arrow-right.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+    transform: translateX(-25px);
+    transition: transform 1s;
+  }
 
-textarea{
-  height: 200px;
-  font-weight: 400;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  max-width: 312px;
-  min-width: 0px;
-  overflow-wrap: break-word;
-  text-rendering: optimizelegibility;
-  word-break: break-word;
-  font-family: 'Source Serif 4', serif;
-   box-sizing: border-box;
-  color: rgb(36, 36, 36);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: -0.06px;
-  line-height: 32px;
-  list-style-image: none;
-  list-style-position: outside;
-  list-style-type: disc;
-  margin-bottom: -9.2px;
-  margin-top: 22.8px;
-  overflow-wrap: break-word;
-  padding-left: 0px;
-  text-rendering: optimizelegibility;
-  word-break: break-word;
-  min-height: 150px;
-  min-width: 312px;
-  box-sizing: border-box;
-}
-input{
- font-size: 32px;
- font-weight: 700;
- font-style: normal;
- color: rgb(36, 36, 36);
- font-family: 'Roboto', sans-serif;
- line-height: 52px;
- margin-bottom: 32px;
- margin-top: 1em;
- overflow-wrap: break-word;
- font-weight: 400;
-margin-bottom: 0px;
-margin-right: 24px;
-margin-top: 0px;
-max-width: 312px;
-min-width: 0px;
-overflow-wrap: break-word;
-text-rendering: optimizelegibility;
-width: 312px;
-word-break: break-word;
-}
-.button{
-background-color: rgb(25, 25, 25);
-fill: rgb(255, 255, 255);
-font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-margin-bottom: 0px;
-overflow-x: visible;
-overflow-y: visible;
-padding-bottom: 6px;
-padding-left: 13px;
-padding-right: 13px;
-padding-top: 6px;
-text-align: center;
-cursor:pointer;
-border: 1px rgb(0, 0, 0);
-border-radius: 50px;
-color: #ffffff;
-z-index: 99;
-}
-.button:hover{
- background-color: #363640;
- border-color: #3a3a44;
- color: #ffffff;
-}
-.form-group{
- display: flex;
- flex-direction: column;
- margin: none;
- padding: none;
- width: 312px;
- 
-}
+  .close {
+    width: 18px;
+    height: 18px;
+    background-image: url("../icon/x.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+    transform: translateX(-6px);
+  }
+  .send {
+    width: 18px;
+    height: 18px;
+    background-image: url("../icon/arrow-right.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+    transform: translateX(6px);
+  }
 
-#list{
+  .close:hover,
+  .send:hover {
+    background-color: rgb(172, 171, 171);
+  }
 
-}
-.btn {
-  width: 18px; 
-  height: 18px;
-  background-image: url('../icon/trash.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  margin-left: 630px;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-}
-.btn:hover{
- background-color: rgb(172, 171, 171);
-}
-.x{
- width: 18px; 
-  height: 18px;
-  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-  transform: translateX(25px);
-  transition: transform 1s;
-}
-.y{
- width: 18px; 
-  height: 18px;
-  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-  transform: translateX(-25px);
-  transition: transform 1s;
-}
+  .btns {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 20px;
+  }
+  button img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    margin: none;
+  }
+  .blog-container {
+    display: none;
+  }
 
+  .navbar-container {
+    background-color: #ffffff;
+    height: 57px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    position: sticky;
+    overflow: hidden;
+    transition: top 0.3s;
+    position: fixed;
+    z-index: 999;
+  }
 
-.close{
- width: 18px; 
-  height: 18px;
-  background-image: url('../icon/x.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-  transform: translateX(-6px);
-}
-.send{
- width: 18px; 
-  height: 18px;
-  background-image: url('../icon/arrow-right.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-  transform: translateX(6px)
-}
+  .navbar {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    margin: 0 25px;
+  }
 
-.close:hover, .send:hover{
- background-color: rgb(172, 171, 171);
-}
+  .left-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
 
-.btns{
- display: flex;
- align-items: center;
- column-gap: 5px;
- margin-top: 20px;
-}
-button img{
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  margin: none;
-}
-.blog-container{
-display: none;
-}
+  .right-section {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+  }
 
-.navbar-container {
-  background-color: #ffffff;
-  height: 57px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid rgb(0, 0, 0, .1);
-  margin-bottom: 50px;
-  position: sticky;
-  overflow: hidden;
-  transition: top 0.3s;
-  position: fixed;
-  z-index: 999;
-}
+  .flexible-space {
+    flex: 1; /* This space will expand and contract as needed */
+  }
 
-.navbar {
-  height: 40px;
-  width: 100%;
-  display: flex;
-  margin: 0 25px;
-}
+  .scale {
+    padding-top: 20%;
+  }
 
-.left-section {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
+  .write {
+    margin: none;
+    position: relative;
+    padding: 5px;
+    padding-right: 25px; /* Adjust as needed for icon size */
+    background-color: #fff; /* Set button background color */
+    background-repeat: no-repeat;
+    background-position: right center; /* Position the icon at the right center */
+    font-family: "Assistant", sans-serif;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
 
-.right-section {
-  display: flex;
-  align-items: center;
-  column-gap: 5px;
-}
-.link{
- display: flex;
-  align-items: center;
-}
+  /* Set the background image with your SVG */
+  .write::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 3px; /* Adjust to position it properly */
+    transform: translateY(-50%);
+    width: 16px; /* Adjust width and height as needed */
+    height: 16px;
+    background-image: url("../icon/pen-square.svg"); /* Replace with your SVG path */
+    background-size: cover;
+    background-color: rgb(214, 214, 214);
+    border-radius: 3px;
+  }
+  .write:active {
+    background-color: #d8d8d8;
+  }
+  .github {
+    width: 16px;
+    height: 16px;
+    background-image: url("../icon/github.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+  }
+  .help {
+    width: 16px;
+    height: 16px;
+    background-image: url("../icon/help-circle.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+  }
+  .github:hover,
+  .help:hover {
+    background-color: rgb(172, 171, 171);
+  }
+  .nav-title {
+    font-family: "Source Serif 4", serif;
+    font-size: 20px;
+  }
+  .nav-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("../icon/code.svg"); /* Replace with your SVG path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    left: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 214);
+    transition: background-color 1s;
+  }
+  .nav-icon:hover {
+    background-color: rgb(172, 171, 171);
+  }
+  .left-section .nav-icon {
+    transition: transform 3s; /* Set initial transition */
+  }
 
-.flexible-space {
-  flex: 1; /* This space will expand and contract as needed */
-}
+  .left-section:hover .nav-icon {
+    transform: translateX(160px); /* Move to the right on hover */
+  }
 
+  .left-section:not(:hover) .nav-icon {
+    transform: translateX(
+      0
+    ); /* Move back to the initial position when not hovering */
+  }
+  .footer {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Source Serif 4", serif;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
 
-.scale{
- padding-top: 20%;
+  .footer p {
+    margin: 5px 0;
+  }
 }
-
-
-.write {
-  margin: none;
-  position: relative;
-  padding: 5px;
-  padding-right: 25px; /* Adjust as needed for icon size */
-  background-color: #fff; /* Set button background color */
-  background-repeat: no-repeat;
-  background-position: right center; /* Position the icon at the right center */
-  font-family: 'Assistant', sans-serif;
-  border-radius: 3px;
-  border: 1px solid rgb(0, 0, 0, .1);
-  cursor: pointer;
-}
-
-/* Set the background image with your SVG */
-.write::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 3px; /* Adjust to position it properly */
-  transform: translateY(-50%);
-  width: 16px; /* Adjust width and height as needed */
-  height: 16px;
-  background-image: url('../icon/pen-square.svg'); /* Replace with your SVG path */
-  background-size: cover;
-  background-color: rgb(214, 214, 214);
-  border-radius: 3px;
-}
-.write:active{
- background-color: #d8d8d8;
-}
-.github{
- width: 16px; 
-  height: 16px;
-  background-image: url('../icon/github.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-}
-.help{
- width: 16px; 
-  height: 16px;
-  background-image: url('../icon/help-circle.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-}
-.github:hover,.help:hover{
- background-color: rgb(172, 171, 171);
-}
-.nav-title{
- font-family: 'Source Serif 4', serif;
- font-size: 20px;
-}
-.nav-icon{
- width: 20px; 
-  height: 20px;
-  background-image: url('../icon/code.svg'); /* Replace with your SVG path */
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  left: 0;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: rgb(214, 214, 214);
-  transition: background-color 1s;
-
-}
-.nav-icon:hover{
- background-color: rgb(172, 171, 171);
-}
-.left-section .nav-icon {
-  transition: transform 3s; /* Set initial transition */
-}
-
-.left-section:hover .nav-icon {
-  transform: translateX(160px); /* Move to the right on hover */
-}
-
-.left-section:not(:hover) .nav-icon {
-  transform: translateX(0); /* Move back to the initial position when not hovering */
-}
-.footer {
-  background-color: #ffffff;
-  color: rgba(0, 0, 0, 0.5);
-  font-family: 'Source Serif 4', serif;
-  text-align: center;
-  padding: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin-top: 50px;
-}
-
-.footer p {
-  margin: 5px 0;
-}
-}
-
