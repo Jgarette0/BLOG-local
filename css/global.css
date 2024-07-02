@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: none;
+  background-color: white;
 }
 .container {
   display: flex;
